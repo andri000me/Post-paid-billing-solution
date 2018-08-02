@@ -1,0 +1,340 @@
+html,body{
+	background: white;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+header{
+	background: white;
+	min-height: 32px;
+	padding-top: 1.3%;
+	border-bottom: #CCCCCC 0.1px solid;	
+}
+.container{	
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+}
+a{
+	color: #6C6C6C;
+}
+a:visited{
+	color: #6C6C6C;
+}
+.sub-head{
+	font-family: Arial;
+	float: left;
+	margin: 0 auto;	
+}
+#sub-head1{
+	margin-left: 50px;
+}
+#sub-head2{
+	margin-left: 25px;
+}
+#sub-head3{
+	margin-left: 25px;
+}
+#sub-head4{
+	margin-left: 25px;
+}
+#sub-head5{
+	margin-left: 500px;
+	color: red;
+	font-weight: bold;
+}
+#sub-head6{
+	margin-left: 25px;
+}
+#sub-head7{
+	margin-left: 25px;
+}
+#sub-head8{
+	margin-left: 25px;
+}
+
+/** Heading */
+
+#heading{
+	
+	text-align: center;
+	padding: 10px 0;
+	font-family: courier, Arial;
+	font-size: 30px;
+	font-weight: bold;
+}
+#first-span{
+	border-bottom: 4px solid #25326F;
+	padding-bottom: 0px;
+}
+
+/** Bill Choose */
+
+#bill-choose{
+	text-align: center;
+	margin: 0;
+}
+form{
+	padding: 30px 0px;
+}
+
+/** Bill Details */
+
+#bill-owner{
+	padding-left: 200px;
+	padding-bottom: 3px;
+	font-family: Georgia;
+	font-size: 24px;
+	font-weight: bold;
+}
+#bill-report{
+	
+	margin: 0;
+}
+.row-1-content{
+	font-weight: normal;
+	display: inline-block;
+	padding-top: 3px
+}
+.sub-script{
+	font-size: 12px;
+	font-weight: normal;
+	margin-top: 3px;
+	display: inline-block;
+}
+.table-1{
+	
+	/** to align table to center */
+	margin-left:auto; 
+    margin-right:auto;
+	border-collapse: collapse;
+	width: 1000;
+}
+th{
+	font-family: arial, sans-serif;
+	padding: 8;
+	font-size: 15;
+}
+td{
+	font-family: arial, sans-serif;
+	padding: 8;
+}
+.table-1 td:nth-child(1){
+	text-align: left;
+}
+.table-1 td:nth-child(2),td:nth-child(3),td:nth-child(4),td:nth-child(5),td:nth-child(6) {
+    text-align: right;
+}​
+.table-1 tr:first-child{ 
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C; 
+}
+.table-1 tr:nth-child(2){
+	border-top: 1px solid #6C6C6C;
+}
+.table-1 tr:nth-child(5){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-1 tr:nth-child(6){
+	border-top: 2px solid #6C6C6C;
+}
+.table-1 tr:nth-child(8){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-1 tr:nth-child(9){
+	border-top: 1px solid #6C6C6C;
+}
+.table-1 tr:nth-child(11){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-1 tr:nth-child(14){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-1 tr:nth-child(15){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-2{
+	/** to align table to center */
+	margin-left:auto; 
+    margin-right:auto;
+	border-collapse: collapse;
+	width: 1038;
+}
+/** TABLE-3 CSS*/
+
+.table-3{
+	/** to align table to center */
+	margin-left: 156; 
+    margin-right: auto;
+	border-collapse: collapse;
+	width: 346;
+	border-right: 2px solid #CCCCCC;
+	float: left;
+	font-size: 15;
+}
+.table-3 tr:nth-child(34){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-3 tr:nth-child(34) td:nth-child(2){
+	text-align: center;
+}
+.table-3 tr:nth-child(34) td:first-child{
+	text-align: left;
+}
+.table-3 tr:nth-child(34) td:nth-child(3){
+	text-align: center;
+}
+
+/** TABLE-4 CSS*/
+.table-4{
+	font-size: 15;
+	margin-right: auto;
+	width: 346;
+	border-collapse: collapse;
+	float: left;
+	border-right: 2px solid #CCCCCC;
+}
+.table-4 tr:nth-child(34){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-4 tr:nth-child(34) td:nth-child(2){
+	text-align: center;
+}
+.table-4 tr:nth-child(34) td:first-child{
+	text-align: left;
+}
+.table-4 tr:nth-child(34) td:nth-child(3){
+	text-align: center;
+}
+
+/** TABLE-5 CSS*/
+.table-5{
+	/** to align table to center */
+	margin-left: 175; 
+    margin-right: auto;
+	border-collapse: collapse;
+	width: 346;
+	
+	font-size: 15;
+}
+.table-5 tr:nth-child(34){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-5 tr:nth-child(34) td:nth-child(2){
+	text-align: center;
+}
+.table-5 tr:nth-child(34) td:first-child{
+	text-align: left;
+}
+.table-5 tr:nth-child(34) td:nth-child(3){
+	text-align: center;
+}
+
+/** TABLE-6 CSS*/
+.table-6{
+	/** to align table to center */
+	margin-left: 156; 
+    margin-right: auto;
+	border-collapse: collapse;
+	width: 346;
+	border-right: 2px solid #CCCCCC;
+	float: left;
+	font-size: 15;
+}
+.table-6 tr:nth-child(34){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-6 tr:nth-child(34) td:nth-child(2){
+	text-align: center;
+}
+.table-6 tr:nth-child(34) td:first-child{
+	text-align: left;
+}
+.table-6 tr:nth-child(34) td:nth-child(3){
+	text-align: center;
+}
+
+/** TABLE-7 CSS*/
+.table-7{
+	/** to align table to center */
+	margin-left: 175; 
+    margin-right: auto;
+	border-collapse: collapse;
+	width: 346;
+	border-right: 2px solid #CCCCCC;
+	font-size: 15;
+}
+.table-7 tr:nth-child(34){
+	border-top: 1px solid #6C6C6C;
+	border-bottom: 2px solid #6C6C6C;
+	font-weight: bold;
+}
+.table-7 tr:nth-child(34) td:nth-child(2){
+	text-align: center;
+}
+.table-7 tr:nth-child(34) td:first-child{
+	text-align: left;
+}
+.table-7 tr:nth-child(34) td:nth-child(3){
+	text-align: center;
+}
+
+
+
+/*footer css*/
+#last-id{
+	position: absolute;
+	margin-top: 40px;
+	background-color: white;
+	width: 100%;
+	height: 300px;
+	border-top: #CCCCCC 0.1px solid;
+}
+.col{
+	float: left;
+	margin: 3% 0% 9% 11%;
+	padding-bottom: 20px;
+}
+.col:first-child {
+  padding: 0px 0 0 0;
+}
+h2 { 
+  color: #6C6C6C;
+  font: bold 18px Arial, Helvetica, sans-serif; 
+  font-variant: small-caps;  
+}
+ul { 
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+}
+li a{
+	padding-bottom: 4px;
+}
+li a { 
+  color: #6C6C6C;
+  display: block; 
+  font: normal 16px Verdana, Geneva, sans-serif; 
+  text-decoration: none;
+}
+li a:visited{
+	color: #6C6C6C;
+}
